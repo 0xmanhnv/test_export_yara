@@ -1,0 +1,611 @@
+[
+   {
+      "created_by_ref":"identity--536cee2b-faa9-4993-ade4-90d62e71c86d",
+      "name":"198.46.161.242",
+      "description":"",
+      "pattern":"[ipv4-addr:value = '198.46.161.242']",
+      "valid_from":"2020-05-15T21:37:22Z",
+      "labels":[
+         "malicious-activity"
+      ],
+      "object_marking_refs":[
+         "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "x_opencti_observable_type":"IPv4-Addr",
+      "x_opencti_observable_value":"198.46.161.242",
+      "x_opencti_pattern_type":"stix",
+      "x_opencti_indicator_pattern":"[ipv4-addr:value = '198.46.161.242']",
+      "type":"indicator",
+      "id":"indicator--2cbe4862-a8b1-47be-89a1-034fc6e945fe",
+      "created":"2020-05-16T05:14:14.110Z",
+      "modified":"2020-05-16T05:14:14.110Z"
+   },
+   {
+      "created_by_ref":"identity--536cee2b-faa9-4993-ade4-90d62e71c86d",
+      "name":"104.168.98.206",
+      "description":"",
+      "pattern":"[ipv4-addr:value = '104.168.98.206']",
+      "valid_from":"2020-05-15T21:37:22Z",
+      "labels":[
+         "malicious-activity"
+      ],
+      "object_marking_refs":[
+         "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "x_opencti_observable_type":"IPv4-Addr",
+      "x_opencti_observable_value":"104.168.98.206",
+      "x_opencti_pattern_type":"stix",
+      "x_opencti_indicator_pattern":"[ipv4-addr:value = '104.168.98.206']",
+      "type":"indicator",
+      "id":"indicator--a9e20a42-4dbd-40ad-a68d-fe49b5eaf654",
+      "created":"2020-05-16T05:14:14.120Z",
+      "modified":"2020-05-16T05:14:14.120Z"
+   },
+   {
+      "created_by_ref":"identity--536cee2b-faa9-4993-ade4-90d62e71c86d",
+      "name":"185.98.87.185",
+      "description":"",
+      "pattern":"[ipv4-addr:value = '185.98.87.185']",
+      "valid_from":"2020-05-15T21:37:22Z",
+      "labels":[
+         "malicious-activity"
+      ],
+      "object_marking_refs":[
+         "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "x_opencti_observable_type":"IPv4-Addr",
+      "x_opencti_observable_value":"185.98.87.185",
+      "x_opencti_pattern_type":"stix",
+      "x_opencti_indicator_pattern":"[ipv4-addr:value = '185.98.87.185']",
+      "type":"indicator",
+      "id":"indicator--7eabbc48-8e7a-4284-af02-d24d681e7fc8",
+      "created":"2020-05-16T05:14:14.122Z",
+      "modified":"2020-05-16T05:14:14.122Z"
+   },
+   {
+      "created_by_ref":"identity--536cee2b-faa9-4993-ade4-90d62e71c86d",
+      "name":"107.173.160.14",
+      "description":"",
+      "pattern":"[ipv4-addr:value = '107.173.160.14']",
+      "valid_from":"2020-05-15T21:37:22Z",
+      "labels":[
+         "malicious-activity"
+      ],
+      "object_marking_refs":[
+         "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "x_opencti_observable_type":"IPv4-Addr",
+      "x_opencti_observable_value":"107.173.160.14",
+      "x_opencti_pattern_type":"stix",
+      "x_opencti_indicator_pattern":"[ipv4-addr:value = '107.173.160.14']",
+      "type":"indicator",
+      "id":"indicator--5d283a45-d762-48ed-855b-93915e8ec95f",
+      "created":"2020-05-16T05:14:14.123Z",
+      "modified":"2020-05-16T05:14:14.123Z"
+   },
+   {
+      "created_by_ref":"identity--536cee2b-faa9-4993-ade4-90d62e71c86d",
+      "name":"http://85.204.116.245/chishir.exe",
+      "description":"",
+      "pattern":"[url:value = 'http://85.204.116.245/chishir.exe']",
+      "valid_from":"2020-05-15T21:21:11Z",
+      "labels":[
+         "malicious-activity"
+      ],
+      "object_marking_refs":[
+         "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "x_opencti_observable_type":"URL",
+      "x_opencti_observable_value":"http://85.204.116.245/chishir.exe",
+      "x_opencti_pattern_type":"stix",
+      "x_opencti_indicator_pattern":"[url:value = 'http://85.204.116.245/chishir.exe']",
+      "type":"indicator",
+      "id":"indicator--2788d3b5-4c66-4322-8aee-0da847398e67",
+      "created":"2020-05-16T05:14:14.124Z",
+      "modified":"2020-05-16T05:14:14.124Z"
+   },
+   {
+      "created_by_ref":"identity--536cee2b-faa9-4993-ade4-90d62e71c86d",
+      "name":"dacd5b49ac628157fcb9cf8d6e537e851ef29a64",
+      "description":"Win64:Trojan-gen",
+      "pattern":"[file:hashes.SHA1 = 'dacd5b49ac628157fcb9cf8d6e537e851ef29a64']",
+      "valid_from":"2020-05-15T21:21:11Z",
+      "labels":[
+         "malicious-activity"
+      ],
+      "object_marking_refs":[
+         "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "x_opencti_observable_type":"File-SHA1",
+      "x_opencti_observable_value":"dacd5b49ac628157fcb9cf8d6e537e851ef29a64",
+      "x_opencti_pattern_type":"stix",
+      "x_opencti_indicator_pattern":"[file:hashes.SHA1 = 'dacd5b49ac628157fcb9cf8d6e537e851ef29a64']",
+      "type":"indicator",
+      "id":"indicator--9c7684a4-c7b6-4fc5-83de-71a5bb05d821",
+      "created":"2020-05-16T05:14:14.126Z",
+      "modified":"2020-05-16T05:14:14.126Z"
+   },
+   {
+      "created_by_ref":"identity--536cee2b-faa9-4993-ade4-90d62e71c86d",
+      "name":"254e7a333ecee6d486b4f8892fe292fb7ba1471fe500651c1ba3e7ff5c9e03c8",
+      "description":"Win64:Trojan-gen\nSHA256 of dacd5b49ac628157fcb9cf8d6e537e851ef29a64",
+      "pattern":"[file:hashes.SHA256 = '254e7a333ecee6d486b4f8892fe292fb7ba1471fe500651c1ba3e7ff5c9e03c8']",
+      "valid_from":"2020-05-15T21:21:11Z",
+      "labels":[
+         "malicious-activity"
+      ],
+      "object_marking_refs":[
+         "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "x_opencti_observable_type":"File-SHA256",
+      "x_opencti_observable_value":"254e7a333ecee6d486b4f8892fe292fb7ba1471fe500651c1ba3e7ff5c9e03c8",
+      "x_opencti_pattern_type":"stix",
+      "x_opencti_indicator_pattern":"[file:hashes.SHA256 = '254e7a333ecee6d486b4f8892fe292fb7ba1471fe500651c1ba3e7ff5c9e03c8']",
+      "type":"indicator",
+      "id":"indicator--b48f9f33-b89e-410d-82ed-b1e9addaf788",
+      "created":"2020-05-16T05:14:14.130Z",
+      "modified":"2020-05-16T05:14:14.130Z"
+   },
+   {
+      "created_by_ref":"identity--536cee2b-faa9-4993-ade4-90d62e71c86d",
+      "name":"172.82.152.15",
+      "description":"",
+      "pattern":"[ipv4-addr:value = '172.82.152.15']",
+      "valid_from":"2020-05-15T21:37:22Z",
+      "labels":[
+         "malicious-activity"
+      ],
+      "object_marking_refs":[
+         "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "x_opencti_observable_type":"IPv4-Addr",
+      "x_opencti_observable_value":"172.82.152.15",
+      "x_opencti_pattern_type":"stix",
+      "x_opencti_indicator_pattern":"[ipv4-addr:value = '172.82.152.15']",
+      "type":"indicator",
+      "id":"indicator--d9e44365-284c-4b9d-bb7a-aca60b4fe46c",
+      "created":"2020-05-16T05:14:14.132Z",
+      "modified":"2020-05-16T05:14:14.132Z"
+   },
+   {
+      "created_by_ref":"identity--536cee2b-faa9-4993-ade4-90d62e71c86d",
+      "name":"130392209b8b1e4aa37fd5c8da8fa6d5",
+      "description":"Win64:Trojan-gen\nMD5 of dacd5b49ac628157fcb9cf8d6e537e851ef29a64",
+      "pattern":"[file:hashes.MD5 = '130392209b8b1e4aa37fd5c8da8fa6d5']",
+      "valid_from":"2020-05-15T21:21:11Z",
+      "labels":[
+         "malicious-activity"
+      ],
+      "object_marking_refs":[
+         "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "x_opencti_observable_type":"File-MD5",
+      "x_opencti_observable_value":"130392209b8b1e4aa37fd5c8da8fa6d5",
+      "x_opencti_pattern_type":"stix",
+      "x_opencti_indicator_pattern":"[file:hashes.MD5 = '130392209b8b1e4aa37fd5c8da8fa6d5']",
+      "type":"indicator",
+      "id":"indicator--fc6b6438-3f04-4cd0-b7af-416afe645882",
+      "created":"2020-05-16T05:14:14.132Z",
+      "modified":"2020-05-16T05:14:14.132Z"
+   },
+   {
+      "created_by_ref":"identity--536cee2b-faa9-4993-ade4-90d62e71c86d",
+      "name":"5b729cd36cf3f0fdcfa0020b1f0f3bb98f9b456005814e61349bfdc50f390a7e",
+      "description":"",
+      "pattern":"[file:hashes.SHA256 = '5b729cd36cf3f0fdcfa0020b1f0f3bb98f9b456005814e61349bfdc50f390a7e']",
+      "valid_from":"2020-05-15T21:21:11Z",
+      "labels":[
+         "malicious-activity"
+      ],
+      "object_marking_refs":[
+         "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "x_opencti_observable_type":"File-SHA256",
+      "x_opencti_observable_value":"5b729cd36cf3f0fdcfa0020b1f0f3bb98f9b456005814e61349bfdc50f390a7e",
+      "x_opencti_pattern_type":"stix",
+      "x_opencti_indicator_pattern":"[file:hashes.SHA256 = '5b729cd36cf3f0fdcfa0020b1f0f3bb98f9b456005814e61349bfdc50f390a7e']",
+      "type":"indicator",
+      "id":"indicator--4670dae5-6b8f-4341-9134-db544a6fdc6a",
+      "created":"2020-05-16T05:14:14.134Z",
+      "modified":"2020-05-16T05:14:14.134Z"
+   },
+   {
+      "created_by_ref":"identity--536cee2b-faa9-4993-ade4-90d62e71c86d",
+      "name":"cd2e0341119cfbf734917f83d91a14d5855906a83066649bd49689e504181330",
+      "description":"",
+      "pattern":"[file:hashes.SHA256 = 'cd2e0341119cfbf734917f83d91a14d5855906a83066649bd49689e504181330']",
+      "valid_from":"2020-05-15T21:21:11Z",
+      "labels":[
+         "malicious-activity"
+      ],
+      "object_marking_refs":[
+         "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "x_opencti_observable_type":"File-SHA256",
+      "x_opencti_observable_value":"cd2e0341119cfbf734917f83d91a14d5855906a83066649bd49689e504181330",
+      "x_opencti_pattern_type":"stix",
+      "x_opencti_indicator_pattern":"[file:hashes.SHA256 = 'cd2e0341119cfbf734917f83d91a14d5855906a83066649bd49689e504181330']",
+      "type":"indicator",
+      "id":"indicator--ad12b2e7-4663-454e-a086-3c2ee9d58bc3",
+      "created":"2020-05-16T05:14:14.135Z",
+      "modified":"2020-05-16T05:14:14.135Z"
+   },
+   {
+      "created_by_ref":"identity--536cee2b-faa9-4993-ade4-90d62e71c86d",
+      "name":"http://107.173.160.14/blueberry.exe",
+      "description":"",
+      "pattern":"[url:value = 'http://107.173.160.14/blueberry.exe']",
+      "valid_from":"2020-05-15T21:21:11Z",
+      "labels":[
+         "malicious-activity"
+      ],
+      "object_marking_refs":[
+         "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "x_opencti_observable_type":"URL",
+      "x_opencti_observable_value":"http://107.173.160.14/blueberry.exe",
+      "x_opencti_pattern_type":"stix",
+      "x_opencti_indicator_pattern":"[url:value = 'http://107.173.160.14/blueberry.exe']",
+      "type":"indicator",
+      "id":"indicator--abb09f87-81ca-4fdf-ba28-44c775861ef2",
+      "created":"2020-05-16T05:14:14.137Z",
+      "modified":"2020-05-16T05:14:14.137Z"
+   },
+   {
+      "created_by_ref":"identity--536cee2b-faa9-4993-ade4-90d62e71c86d",
+      "name":"http://185.98.87.185/Atomic.exe",
+      "description":"",
+      "pattern":"[url:value = 'http://185.98.87.185/Atomic.exe']",
+      "valid_from":"2020-05-15T21:21:11Z",
+      "labels":[
+         "malicious-activity"
+      ],
+      "object_marking_refs":[
+         "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "x_opencti_observable_type":"URL",
+      "x_opencti_observable_value":"http://185.98.87.185/Atomic.exe",
+      "x_opencti_pattern_type":"stix",
+      "x_opencti_indicator_pattern":"[url:value = 'http://185.98.87.185/Atomic.exe']",
+      "type":"indicator",
+      "id":"indicator--b6cf0369-22b8-4071-9917-7a288b1c4a66",
+      "created":"2020-05-16T05:14:14.139Z",
+      "modified":"2020-05-16T05:14:14.139Z"
+   },
+   {
+      "created_by_ref":"identity--536cee2b-faa9-4993-ade4-90d62e71c86d",
+      "name":"http://172.82.152.15/cloudberry.exe",
+      "description":"",
+      "pattern":"[url:value = 'http://172.82.152.15/cloudberry.exe']",
+      "valid_from":"2020-05-15T21:21:11Z",
+      "labels":[
+         "malicious-activity"
+      ],
+      "object_marking_refs":[
+         "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "x_opencti_observable_type":"URL",
+      "x_opencti_observable_value":"http://172.82.152.15/cloudberry.exe",
+      "x_opencti_pattern_type":"stix",
+      "x_opencti_indicator_pattern":"[url:value = 'http://172.82.152.15/cloudberry.exe']",
+      "type":"indicator",
+      "id":"indicator--23f91f49-aa96-4641-b530-4d08fa8ff03e",
+      "created":"2020-05-16T05:14:14.140Z",
+      "modified":"2020-05-16T05:14:14.140Z"
+   },
+   {
+      "created_by_ref":"identity--536cee2b-faa9-4993-ade4-90d62e71c86d",
+      "name":"http://107.173.160.14/cranberry.exe",
+      "description":"",
+      "pattern":"[url:value = 'http://107.173.160.14/cranberry.exe']",
+      "valid_from":"2020-05-15T21:21:11Z",
+      "labels":[
+         "malicious-activity"
+      ],
+      "object_marking_refs":[
+         "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "x_opencti_observable_type":"URL",
+      "x_opencti_observable_value":"http://107.173.160.14/cranberry.exe",
+      "x_opencti_pattern_type":"stix",
+      "x_opencti_indicator_pattern":"[url:value = 'http://107.173.160.14/cranberry.exe']",
+      "type":"indicator",
+      "id":"indicator--fcd8b819-d04e-4fb6-b41f-db3b646220e1",
+      "created":"2020-05-16T05:14:14.141Z",
+      "modified":"2020-05-16T05:14:14.141Z"
+   },
+   {
+      "created_by_ref":"identity--536cee2b-faa9-4993-ade4-90d62e71c86d",
+      "name":"http://198.46.161.242/cranberry.exe",
+      "description":"",
+      "pattern":"[url:value = 'http://198.46.161.242/cranberry.exe']",
+      "valid_from":"2020-05-15T21:21:11Z",
+      "labels":[
+         "malicious-activity"
+      ],
+      "object_marking_refs":[
+         "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "x_opencti_observable_type":"URL",
+      "x_opencti_observable_value":"http://198.46.161.242/cranberry.exe",
+      "x_opencti_pattern_type":"stix",
+      "x_opencti_indicator_pattern":"[url:value = 'http://198.46.161.242/cranberry.exe']",
+      "type":"indicator",
+      "id":"indicator--5c345f6d-7891-451e-83f1-b270b6baabe4",
+      "created":"2020-05-16T05:14:14.142Z",
+      "modified":"2020-05-16T05:14:14.142Z"
+   },
+   {
+      "created_by_ref":"identity--536cee2b-faa9-4993-ade4-90d62e71c86d",
+      "name":"http://64.91.251.250/UgaNda73n",
+      "description":"",
+      "pattern":"[url:value = 'http://64.91.251.250/UgaNda73n']",
+      "valid_from":"2020-05-15T21:21:11Z",
+      "labels":[
+         "malicious-activity"
+      ],
+      "object_marking_refs":[
+         "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "x_opencti_observable_type":"URL",
+      "x_opencti_observable_value":"http://64.91.251.250/UgaNda73n",
+      "x_opencti_pattern_type":"stix",
+      "x_opencti_indicator_pattern":"[url:value = 'http://64.91.251.250/UgaNda73n']",
+      "type":"indicator",
+      "id":"indicator--8e27a4d9-57a6-4821-894c-849732cb4d06",
+      "created":"2020-05-16T05:14:14.143Z",
+      "modified":"2020-05-16T05:14:14.143Z"
+   },
+   {
+      "created_by_ref":"identity--536cee2b-faa9-4993-ade4-90d62e71c86d",
+      "name":"http://104.168.98.206/Nuclear.exe",
+      "description":"",
+      "pattern":"[url:value = 'http://104.168.98.206/Nuclear.exe']",
+      "valid_from":"2020-05-15T21:21:11Z",
+      "labels":[
+         "malicious-activity"
+      ],
+      "object_marking_refs":[
+         "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "x_opencti_observable_type":"URL",
+      "x_opencti_observable_value":"http://104.168.98.206/Nuclear.exe",
+      "x_opencti_pattern_type":"stix",
+      "x_opencti_indicator_pattern":"[url:value = 'http://104.168.98.206/Nuclear.exe']",
+      "type":"indicator",
+      "id":"indicator--365e63b3-a229-4d38-8a52-ed104c35f1b1",
+      "created":"2020-05-16T05:14:14.145Z",
+      "modified":"2020-05-16T05:14:14.145Z"
+   },
+   {
+      "created_by_ref":"identity--536cee2b-faa9-4993-ade4-90d62e71c86d",
+      "name":"http://172.82.152.15/blueberry.exe",
+      "description":"",
+      "pattern":"[url:value = 'http://172.82.152.15/blueberry.exe']",
+      "valid_from":"2020-05-15T21:37:22Z",
+      "labels":[
+         "malicious-activity"
+      ],
+      "object_marking_refs":[
+         "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "x_opencti_observable_type":"URL",
+      "x_opencti_observable_value":"http://172.82.152.15/blueberry.exe",
+      "x_opencti_pattern_type":"stix",
+      "x_opencti_indicator_pattern":"[url:value = 'http://172.82.152.15/blueberry.exe']",
+      "type":"indicator",
+      "id":"indicator--5b8f6107-7178-4881-99ef-8f256daae6d0",
+      "created":"2020-05-16T05:14:14.146Z",
+      "modified":"2020-05-16T05:14:14.146Z"
+   },
+   {
+      "created_by_ref":"identity--536cee2b-faa9-4993-ade4-90d62e71c86d",
+      "name":"d0a1bcc0df0ff70b5fb90704adab7fee734fc21d",
+      "description":"",
+      "pattern":"[file:hashes.SHA1 = 'd0a1bcc0df0ff70b5fb90704adab7fee734fc21d']",
+      "valid_from":"2020-05-15T21:21:11Z",
+      "labels":[
+         "malicious-activity"
+      ],
+      "object_marking_refs":[
+         "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "x_opencti_observable_type":"File-SHA1",
+      "x_opencti_observable_value":"d0a1bcc0df0ff70b5fb90704adab7fee734fc21d",
+      "x_opencti_pattern_type":"stix",
+      "x_opencti_indicator_pattern":"[file:hashes.SHA1 = 'd0a1bcc0df0ff70b5fb90704adab7fee734fc21d']",
+      "type":"indicator",
+      "id":"indicator--23ec9d4b-17b9-4968-8058-57bb46f28c3f",
+      "created":"2020-05-16T05:14:14.147Z",
+      "modified":"2020-05-16T05:14:14.147Z"
+   },
+   {
+      "created_by_ref":"identity--536cee2b-faa9-4993-ade4-90d62e71c86d",
+      "name":"0e29a1f93b003c31af46ab1ab7c8d3df150123e0",
+      "description":"MALW_trickbot_bankBot",
+      "pattern":"[file:hashes.SHA1 = '0e29a1f93b003c31af46ab1ab7c8d3df150123e0']",
+      "valid_from":"2020-05-15T21:21:11Z",
+      "labels":[
+         "malicious-activity"
+      ],
+      "object_marking_refs":[
+         "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "x_opencti_observable_type":"File-SHA1",
+      "x_opencti_observable_value":"0e29a1f93b003c31af46ab1ab7c8d3df150123e0",
+      "x_opencti_pattern_type":"stix",
+      "x_opencti_indicator_pattern":"[file:hashes.SHA1 = '0e29a1f93b003c31af46ab1ab7c8d3df150123e0']",
+      "type":"indicator",
+      "id":"indicator--9e9c4666-ba3e-477e-90d7-c285f14184a5",
+      "created":"2020-05-16T05:14:14.148Z",
+      "modified":"2020-05-16T05:14:14.148Z"
+   },
+   {
+      "created_by_ref":"identity--536cee2b-faa9-4993-ade4-90d62e71c86d",
+      "name":"3ef000cb90ab638ab0bae542c2d6e8e6ec146c53",
+      "description":"MALW_trickbot_bankBot",
+      "pattern":"[file:hashes.SHA1 = '3ef000cb90ab638ab0bae542c2d6e8e6ec146c53']",
+      "valid_from":"2020-05-15T21:21:11Z",
+      "labels":[
+         "malicious-activity"
+      ],
+      "object_marking_refs":[
+         "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "x_opencti_observable_type":"File-SHA1",
+      "x_opencti_observable_value":"3ef000cb90ab638ab0bae542c2d6e8e6ec146c53",
+      "x_opencti_pattern_type":"stix",
+      "x_opencti_indicator_pattern":"[file:hashes.SHA1 = '3ef000cb90ab638ab0bae542c2d6e8e6ec146c53']",
+      "type":"indicator",
+      "id":"indicator--bf2a7162-4814-4aaa-8808-850941efc2e4",
+      "created":"2020-05-16T05:14:14.149Z",
+      "modified":"2020-05-16T05:14:14.149Z"
+   },
+   {
+      "created_by_ref":"identity--536cee2b-faa9-4993-ade4-90d62e71c86d",
+      "name":"f82753b1d526da357e4cbcfa24e80e79422b8bce",
+      "description":"",
+      "pattern":"[file:hashes.SHA1 = 'f82753b1d526da357e4cbcfa24e80e79422b8bce']",
+      "valid_from":"2020-05-15T21:21:11Z",
+      "labels":[
+         "malicious-activity"
+      ],
+      "object_marking_refs":[
+         "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "x_opencti_observable_type":"File-SHA1",
+      "x_opencti_observable_value":"f82753b1d526da357e4cbcfa24e80e79422b8bce",
+      "x_opencti_pattern_type":"stix",
+      "x_opencti_indicator_pattern":"[file:hashes.SHA1 = 'f82753b1d526da357e4cbcfa24e80e79422b8bce']",
+      "type":"indicator",
+      "id":"indicator--e85493dc-a5b9-4088-a47e-4969b7a6f7f1",
+      "created":"2020-05-16T05:14:14.150Z",
+      "modified":"2020-05-16T05:14:14.150Z"
+   },
+   {
+      "created_by_ref":"identity--536cee2b-faa9-4993-ade4-90d62e71c86d",
+      "name":"85.204.116.245",
+      "description":"",
+      "pattern":"[ipv4-addr:value = '85.204.116.245']",
+      "valid_from":"2020-05-15T21:37:22Z",
+      "labels":[
+         "malicious-activity"
+      ],
+      "object_marking_refs":[
+         "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "x_opencti_observable_type":"IPv4-Addr",
+      "x_opencti_observable_value":"85.204.116.245",
+      "x_opencti_pattern_type":"stix",
+      "x_opencti_indicator_pattern":"[ipv4-addr:value = '85.204.116.245']",
+      "type":"indicator",
+      "id":"indicator--02576ace-0754-4ef8-89f9-8dca0285a597",
+      "created":"2020-05-16T05:14:14.151Z",
+      "modified":"2020-05-16T05:14:14.151Z"
+   },
+   {
+      "created_by_ref":"identity--536cee2b-faa9-4993-ade4-90d62e71c86d",
+      "name":"64.91.251.250",
+      "description":"",
+      "pattern":"[ipv4-addr:value = '64.91.251.250']",
+      "valid_from":"2020-05-15T21:37:22Z",
+      "labels":[
+         "malicious-activity"
+      ],
+      "object_marking_refs":[
+         "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "x_opencti_observable_type":"IPv4-Addr",
+      "x_opencti_observable_value":"64.91.251.250",
+      "x_opencti_pattern_type":"stix",
+      "x_opencti_indicator_pattern":"[ipv4-addr:value = '64.91.251.250']",
+      "type":"indicator",
+      "id":"indicator--3c6a9e30-aef8-4e03-868f-6534cf663634",
+      "created":"2020-05-16T05:14:14.152Z",
+      "modified":"2020-05-16T05:14:14.152Z"
+   },
+   {
+      "created_by_ref":"identity--536cee2b-faa9-4993-ade4-90d62e71c86d",
+      "name":"44e2946d58a37fc9ed0650f60d0979f9",
+      "description":"MALW_trickbot_bankBot\nMD5 of 3ef000cb90ab638ab0bae542c2d6e8e6ec146c53",
+      "pattern":"[file:hashes.MD5 = '44e2946d58a37fc9ed0650f60d0979f9']",
+      "valid_from":"2020-05-15T21:21:11Z",
+      "labels":[
+         "malicious-activity"
+      ],
+      "object_marking_refs":[
+         "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "x_opencti_observable_type":"File-MD5",
+      "x_opencti_observable_value":"44e2946d58a37fc9ed0650f60d0979f9",
+      "x_opencti_pattern_type":"stix",
+      "x_opencti_indicator_pattern":"[file:hashes.MD5 = '44e2946d58a37fc9ed0650f60d0979f9']",
+      "type":"indicator",
+      "id":"indicator--f98d8c3d-47a2-4a1a-ba01-337b8245de6e",
+      "created":"2020-05-16T05:14:14.153Z",
+      "modified":"2020-05-16T05:14:14.153Z"
+   },
+   {
+      "created_by_ref":"identity--536cee2b-faa9-4993-ade4-90d62e71c86d",
+      "name":"77d8e1a86de34ece7e022651592aeedc3d32d0b022c1fe5d34a403e13afa8d5e",
+      "description":"MALW_trickbot_bankBot\nSHA256 of 3ef000cb90ab638ab0bae542c2d6e8e6ec146c53",
+      "pattern":"[file:hashes.SHA256 = '77d8e1a86de34ece7e022651592aeedc3d32d0b022c1fe5d34a403e13afa8d5e']",
+      "valid_from":"2020-05-15T21:21:11Z",
+      "labels":[
+         "malicious-activity"
+      ],
+      "object_marking_refs":[
+         "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "x_opencti_observable_type":"File-SHA256",
+      "x_opencti_observable_value":"77d8e1a86de34ece7e022651592aeedc3d32d0b022c1fe5d34a403e13afa8d5e",
+      "x_opencti_pattern_type":"stix",
+      "x_opencti_indicator_pattern":"[file:hashes.SHA256 = '77d8e1a86de34ece7e022651592aeedc3d32d0b022c1fe5d34a403e13afa8d5e']",
+      "type":"indicator",
+      "id":"indicator--e03157ae-7564-42a2-9772-c90283d091b1",
+      "created":"2020-05-16T05:14:14.155Z",
+      "modified":"2020-05-16T05:14:14.155Z"
+   },
+   {
+      "created_by_ref":"identity--536cee2b-faa9-4993-ade4-90d62e71c86d",
+      "name":"a22e263d2147de6d8c0ce04ea05de456372c158d292eca57858880e6c56f9ca7",
+      "description":"MALW_trickbot_bankBot\nSHA256 of 0e29a1f93b003c31af46ab1ab7c8d3df150123e0",
+      "pattern":"[file:hashes.SHA256 = 'a22e263d2147de6d8c0ce04ea05de456372c158d292eca57858880e6c56f9ca7']",
+      "valid_from":"2020-05-15T21:21:11Z",
+      "labels":[
+         "malicious-activity"
+      ],
+      "object_marking_refs":[
+         "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "x_opencti_observable_type":"File-SHA256",
+      "x_opencti_observable_value":"a22e263d2147de6d8c0ce04ea05de456372c158d292eca57858880e6c56f9ca7",
+      "x_opencti_pattern_type":"stix",
+      "x_opencti_indicator_pattern":"[file:hashes.SHA256 = 'a22e263d2147de6d8c0ce04ea05de456372c158d292eca57858880e6c56f9ca7']",
+      "type":"indicator",
+      "id":"indicator--5a5a99d3-a8ae-4d9c-ba40-42a0a9ecbe4c",
+      "created":"2020-05-16T05:14:14.157Z",
+      "modified":"2020-05-16T05:14:14.157Z"
+   },
+   {
+      "created_by_ref":"identity--536cee2b-faa9-4993-ade4-90d62e71c86d",
+      "name":"85fb47d7fd559eaf98ca59ed11010135",
+      "description":"MALW_trickbot_bankBot\nMD5 of 0e29a1f93b003c31af46ab1ab7c8d3df150123e0",
+      "pattern":"[file:hashes.MD5 = '85fb47d7fd559eaf98ca59ed11010135']",
+      "valid_from":"2020-05-15T21:21:11Z",
+      "labels":[
+         "malicious-activity"
+      ],
+      "object_marking_refs":[
+         "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "x_opencti_observable_type":"File-MD5",
+      "x_opencti_observable_value":"85fb47d7fd559eaf98ca59ed11010135",
+      "x_opencti_pattern_type":"stix",
+      "x_opencti_indicator_pattern":"[file:hashes.MD5 = '85fb47d7fd559eaf98ca59ed11010135']",
+      "type":"indicator",
+      "id":"indicator--352df932-30a3-460f-b70d-38c9521df443",
+      "created":"2020-05-16T05:14:14.158Z",
+      "modified":"2020-05-16T05:14:14.158Z"
+   }
+]
